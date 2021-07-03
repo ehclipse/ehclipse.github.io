@@ -1,0 +1,122 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    color: aliceblue;
+    background-color: #1A1A1D;
+}
+/* use px for units in measurement for everything*/
+
+h1,h2,h3,p, .logo{
+    margin-left: 100px;
+}
+
+h1, h2{
+    color: #C3073F;
+}
+
+h3{
+    color: #950740;
+}
+
+p{
+    color: #4E4E50;
+}
+
+
+
+/* Style NavBar */
+.navBar{
+    color: #C3073F;
+    position: fixed;
+    width: 30px; /* width of the side bar */
+    height: 100%;
+    background: #1A1A1D;
+    transition: 0.5s;
+    overflow: hidden;
+}
+
+.navBar ul{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    
+}
+
+.navBar ul li{
+    position: relative;
+    width: 100%;
+    list-style: none;
+}
+
+.navBar ul li a{
+    position: relative;
+    display: block;
+    width: 100%;
+    display: flex;
+    text-decoration: none;
+    
+}
+
+.navBar ul li a .icon{
+    position: relative;
+    display: block;
+    min-width: 60px;
+    height: 60px;
+    line-height: 60px;
+    text-align: center;
+}
+
+.navBar ul li a .icon .fas{
+    font-size: 24px;
+}
+
+.navBar ul li a .title{
+    position: relative;
+    display: block;
+    min-width: 0 10px;
+    height: 60px;
+    line-height: 60px;
+    text-align: start;
+    white-space: nowrap;
+}
+
+.navBar:hover{
+    width: 300px;
+}
+
+.navBar ul li:hover{
+    background: #4E4E50;
+}
+
+/* ---------------------------------------------------------*/
+
+a{
+    text-decoration: none;
+    color: inherit;
+}
+
+.logo{
+    height: 100px;
+    width:  100px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-top: 50px;
+}
+
+
+.socials{
+    margin-left: 65px;
+}
+
+.socials ul{
+    list-style-type: none;
+}
+
+.socials ul li{
+    display: inline;
+    padding-right: 15px;
+}
+
+.socials li:hover{
+    color: #4E4E50;
+}
