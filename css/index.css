@@ -120,3 +120,23 @@ a{
 .socials li:hover{
     color: #4E4E50;
 }
+
+
+.introduction{
+    background: linear-gradient(rgba(0,0,0, 0.25), rgba(0,0,0, 0.25)), url('../images/bg1.jpg');
+   /* background-image: url('../images/bg1.jpg');*/
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#hello_msg{
+    background-image: linear-gradient(rgb(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5));
+    padding-left: 100px;
+    padding-right: 100px;
+    font-size: 100pt;
+}
