@@ -136,7 +136,7 @@ a{
 
 #hello_msg{
     background-image: linear-gradient(rgb(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5));
-    padding-left: 5%;
-    padding-right: 5%;
+    padding-left: 0.3em;
+    padding-right: 0.3em;
     font-size: 100pt;
 }
