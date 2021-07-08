@@ -85,7 +85,7 @@ p{
 }
 
 .navBar ul li:hover{
-    background: #4E4E50;
+    background: linear-gradient(rgb(0, 0, 0, 0.3),rgba(0, 0, 0, 0.3));;
 }
 
 /* ---------------------------------------------------------*/
