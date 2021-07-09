@@ -9,7 +9,7 @@ h1,h2,h3,p, .logo{
     margin-left: 100px;
 }
 
-h1, h2{
+h1, h2, .hello_msg{
     color: #C3073F;
 }
 
@@ -32,6 +32,7 @@ p{
     background: #1A1A1D;
     transition: 0.5s;
     overflow: hidden;
+    z-index: 5;
 }
 
 .navBar ul{
@@ -121,6 +122,7 @@ a{
     color: #4E4E50;
 }
 
+/*-----------------------------*/
 
 .introduction{
     background: linear-gradient(rgba(0,0,0, 0.25), rgba(0,0,0, 0.25)), url('../images/bg1.jpg');
@@ -134,9 +136,13 @@ a{
     align-items: center;
 }
 
-#hello_msg{
+.hello_msg{
     background-image: linear-gradient(rgb(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5));
     padding-left: 0.3em;
     padding-right: 0.3em;
     font-size: 8em;
+    font-weight: bold;
 }
+
+
+/*-----------------*/
