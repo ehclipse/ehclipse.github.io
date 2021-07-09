@@ -146,3 +146,39 @@ a{
 
 
 /*-----------------*/
+
+/* Trying out anime.js */
+.grid-wrapper{
+    display: grid;
+    grid-template-columns: 50px  50px 50px;
+    grid-gap: 10px;
+
+    /** Centers Grid **/
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-200%, -50%); /** Change -200 to -50 for center **/
+
+
+}
+
+.grid-wrapper > div {
+    background-color: #C3073F;
+    text-align: center;
+    font-size: 30px;
+   
+  } 
+
+.square{
+    height: 50px;
+    width: 50px;
+    background-color: rgb(206, 36, 36);
+}
+
+.wip{
+    font-size: 50pt;
+    position: absolute;
+    text-align: center;
+    left: 50%;
+    transform: translate(-60%, 0);
+}
