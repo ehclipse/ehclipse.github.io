@@ -163,7 +163,7 @@ a{
 }
 
 .grid-wrapper > div {
-    background-color: #C3073F;
+  /*  background-color: #C3073F;*/
     text-align: center;
     font-size: 30px;
    
@@ -172,7 +172,7 @@ a{
 .square{
     height: 50px;
     width: 50px;
-    background-color: rgb(206, 36, 36);
+    background-color: #C3073F;
 }
 
 .wip{
