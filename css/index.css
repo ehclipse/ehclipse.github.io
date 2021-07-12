@@ -32,7 +32,7 @@ p{
     background: #1A1A1D;
     transition: 0.5s;
     overflow: hidden;
-    z-index: 5;
+    z-index: 5;  
 }
 
 .navBar ul{
