@@ -1,0 +1,31 @@
+.projects{ /* flexbox container: 2 items per row */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-items: center;
+ 
+}
+
+.project{
+    width: 500px;
+}
+
+.slider{
+    margin-left: 100px;
+    margin-bottom: 100px;
+   /* border: 3px solid #950740; */
+}
+
+
+.page_title{
+    font-size: 30pt;
+}
+
+/*
+    Work on the other sliders. Probably have to add some css for each of them and change the names of the classes.
+    - done
+
+    Maybe move the projects title to the center of the screen like in the home page.
+
+    Also anime piano music really helps stay motivated in coding!
+*/
