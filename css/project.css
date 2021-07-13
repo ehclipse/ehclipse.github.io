@@ -18,7 +18,23 @@
 
 
 .page_title{
-    font-size: 30pt;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url('../images/bg1.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    margin-bottom: 100px;
+}
+
+.page_title h2{
+    background-image: linear-gradient(rgb(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5));
+    padding-left: 0.3em;
+    padding-right: 0.3em;
+    font-size: 8em;
+    font-weight: bold;
 }
 
 /*
