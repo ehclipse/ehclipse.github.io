@@ -6,12 +6,26 @@
  
 }
 
+.row {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+}
+  
+.column {
+    display: flex;
+    flex-direction: column;
+    flex-basis: 100%;
+    flex: 1;
+}
+
 .project{
     width: 500px;
 }
 
 .slider{
-    margin-left: 100px;
+    /*margin-left: 100px;*/
     margin-bottom: 100px;
    /* border: 3px solid #950740; */
 }
